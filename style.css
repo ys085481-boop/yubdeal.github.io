@@ -177,3 +177,27 @@ h1{
   border-radius:8px;
   margin-bottom:10px;
 }
+/* MOBILE OPTIMIZATION */
+@media (max-width: 768px){
+
+  .container{
+    padding:15px;
+  }
+
+  .brand{
+    font-size:28px;
+  }
+
+  .product{
+    padding:15px;
+  }
+
+  .product-img{
+    height:150px;
+  }
+
+  .btn{
+    width:100%;
+    text-align:center;
+  }
+}
