@@ -1,0 +1,179 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f2f4f7;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.subtitle{
+  text-align:center;
+  color:#555;
+  margin-bottom:30px;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+  gap:20px;
+}
+
+.product{
+  background:#fff;
+  border-radius:12px;
+  padding:20px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.product h2{
+  margin-top:0;
+}
+
+.product p{
+  color:#555;
+}
+
+.buttons{
+  margin-top:15px;
+}
+
+.btn{
+  display:inline-block;
+  padding:10px 14px;
+  margin-right:8px;
+  margin-top:5px;
+  border-radius:6px;
+  text-decoration:none;
+  color:white;
+  font-size:14px;
+}
+
+.india{
+  background:#ff9900;
+}
+
+.usa{
+  background:#146eb4;
+}
+
+.footer{
+  text-align:center;
+  font-size:12px;
+  color:gray;
+  margin:30px 0;
+}
+/* HEADER BACKGROUND */
+.header{
+  background: linear-gradient(
+    to right,
+    #6cf0b0 0%,
+    #1fa463 30%,
+    #ccf7e1 50%,
+    #5e98db 70%,
+    #78bbe7 100%
+  );
+  padding:40px 20px;
+  text-align:center;
+  border-radius:0 0 20px 20px;
+}
+
+/* BRAND TEXT */
+.brand{
+  font-size:42px;
+  font-weight:bold;
+  margin:0;
+}
+
+.brand .yub{
+  color:#01f07c; /* green */
+}
+
+.brand .deal{
+  color:#47a2cc; /* red */
+}
+
+.brand-subtitle{
+  margin-top:10px;
+  color:#8a7474;
+  font-size:16px;
+}
+/* ARTICLE SECTION */
+.article{
+  background:#ffffff;
+  padding:25px;
+  border-radius:14px;
+  margin:30px 0;
+  line-height:1.7;
+  border-left:6px solid #1fa463; /* green */
+}
+
+.article h2{
+  color:#1fa463;
+}
+
+/* SECTION TITLE */
+.section-title{
+  color:#e63946; /* red */
+}
+
+/* PRODUCT CARD */
+.product{
+  background:#ffffff;
+  border-radius:14px;
+  padding:20px;
+  box-shadow:0 6px 14px rgba(0,0,0,0.08);
+  border-top:5px solid #e63946; /* red */
+}
+
+/* PRODUCT TITLE */
+.product h3{
+  color:#1fa463;
+}
+
+/* BUTTONS */
+.btn{
+  display:inline-block;
+  padding:10px 16px;
+  margin-top:8px;
+  border-radius:20px;
+  font-size:14px;
+  font-weight:bold;
+  text-decoration:none;
+  color:white;
+}
+
+.btn.india{
+  background:#1fa463; /* green */
+}
+
+.btn.usa{
+  background:#e63946; /* red */
+}
+
+/* HOVER EFFECT */
+.btn:hover{
+  opacity:0.9;
+  transform:scale(1.03);
+  transition:0.2s;
+}
+.logo{
+  width:120px;     /* logo size */
+  display:block;
+  margin:0 auto 12px auto; /* center */
+}
+.product-img{
+  width:100%;
+  height:180px;
+  object-fit:contain;
+  border-radius:8px;
+  margin-bottom:10px;
+}
